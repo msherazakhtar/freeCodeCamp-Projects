@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking time to help us improve the platform
+    </p>
+    <div class="form-container">
+      <form>
+        <fieldset>
+          <label for="name"
+            >Name:
+            <input type="text" id="name" required placeholder="Enter your name"
+          /></label>
+          <label for="email"
+            >Email:
+            <input
+              type="email"
+              required
+              id="email"
+              placeholder="Enter your email address"
+          /></label>
+          <label for="age"
+            >Age:
+            <input
+              type="number"
+              required
+              id="age"
+              placeholder="Enter your age"
+              min="16"
+              max="120"
+            />
+          </label>
+          <label for="role"
+            >What is your favorite feature of freeCodeCamp?
+            <select name="role" id="role">
+              <option value="">Select your role</option>
+              <option value="Challenges">Challenges</option>
+              <option value="Projects">Projects</option>
+              <option value="Community">Community</option>
+              <option value="Open Source">Open Source</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset class="recomendation">
+          <label> Would you recomend freeCodeCamp to your friend?</label>
+          <label for="radio-sure" class="radios"
+            ><input
+              type="radio"
+              id="radio-sure"
+              name="recomendation"
+              value="definitely"
+              class="radios"
+              checked
+            />Definitely</label
+          >
+          <label for="radio-maybe" class="radios"
+            ><input
+              type="radio"
+              id="radio-maybe"
+              name="recomendation"
+              value="maybe"
+              class="radios"
+            />Maybe</label
+          >
+          <label for="radio-not" class="radios"
+            ><input
+              type="radio"
+              id="radio-not"
+              name="recomendation"
+              value="not sure"
+              class="radios"
+            />Not Sure</label
+          >
+        </fieldset>
+        <fieldset>
+          <label
+            >What option best describes your current role?
+            <select name="role" id="role">
+              <option value="student" id="student">Student</option>
+              <option value="job" id="job">Full Time Job</option>
+              <option value="learner" id="learner">Full Time Learner</option>
+              <option value="none" id="none">Prefer Not to Say</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label>What would you like to improve? </label>
+          <label for="front-end-projects" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="front-end-projects"
+              value="front-end-projects"
+            />Front End Projects</label
+          >
+          <label for="back-end-projects" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="back-end-projects"
+              value="back-end-projects"
+            />Back End Projects</label
+          >
+          <label for="data-visualization" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="data-visualization"
+              value="data-visualization"
+            />Data Visualization</label
+          >
+          <label for="challenges" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="challenges"
+              value="challenges"
+            />Challenges</label
+          >
+          <label for="community" class="checkboxes"
+            ><input type="checkbox" class="checkboxes" id="community" />Open
+            Source Community</label
+          >
+          <label for="help-rooms" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="help-rooms"
+              value="help-rooms"
+            />Gitter Help Rooms</label
+          >
+          <label for="videos" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="videos"
+              value="videos"
+            />Videos</label
+          >
+          <label for="wikki" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="wikki"
+              value="wikki"
+            />Wikki</label
+          >
+          <label for="meetups" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="meetups"
+              value="meetups"
+            />City Meetups</label
+          >
+          <label for="forum" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="forums"
+              value="forum"
+            />Forum</label
+          >
+          <label for="courses" class="checkboxes"
+            ><input
+              type="checkbox"
+              class="checkboxes"
+              id="courses"
+              value="courses"
+            />Additional Courses</label
+          >
+        </fieldset>
+        <fieldset>
+          <label for="suggestions">Any comments or suggestions:</label>
+          <textarea name="comments" id="comments" cols="30" rows="5"></textarea>
+        </fieldset>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

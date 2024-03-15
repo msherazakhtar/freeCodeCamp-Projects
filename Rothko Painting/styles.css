@@ -1,0 +1,46 @@
+.frame {
+  margin: 0 auto;
+  background-color: black;
+  width: 400px;
+  height: 450px;
+  padding: 20px;
+}
+
+.shape1 {
+  height: 100px;
+  width: 320px;
+  background-color: rgb(235, 137, 71);
+  margin: auto;
+  margin-top: 10px;
+  filter: blur(2px);
+  border-radius: 15px;
+}
+
+.shape2 {
+  height: 120px;
+  width: 95%;
+  background-color: rgb(149, 1, 1);
+  margin: auto;
+  margin-top: 10px;
+  filter: blur(1px);
+  border-radius: 5px;
+}
+.shape3 {
+  height: 100px;
+  width: 310px;
+  background-color: rgb(190, 5, 5);
+  margin: auto;
+  margin-top: 10px;
+  filter: blur(1px);
+  border-radius: 30px 15px 30px 10px;
+}
+
+.canvas {
+  background-color: rgb(94, 22, 22);
+  margin: 10px auto;
+  border: 30px solid white;
+  border-color: aliceblue;
+  width: auto;
+  height: 80%;
+  padding-top: 10px;
+}

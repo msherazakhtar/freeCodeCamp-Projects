@@ -1,0 +1,102 @@
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(90, 90, 170, 0.758),
+      rgba(136, 136, 206, 0.362)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+p {
+  margin-top: -15px;
+  font-style: italic;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.form-container {
+  height: fit-content;
+  width: fit-content;
+  border: 2px solid #ccc;
+  margin: 0 auto;
+  background-color: #292947b8;
+  padding: 0;
+  border-radius: 10px;
+  font-size: 10px;
+  min-width: none;
+}
+input,
+label {
+  display: block;
+}
+label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+input,
+select {
+  width: 250px;
+  margin-top: 5px;
+  height: 20px;
+}
+fieldset {
+  border: 0;
+}
+select {
+  display: block;
+  width: 100%;
+}
+
+.radios {
+  display: flex;
+  text-align: left;
+  margin-bottom: unset;
+  width: fit-content;
+  margin-top: unset;
+  height: unset;
+  padding-top: 3px;
+}
+.checkboxes {
+  display: flex;
+  text-align: left;
+  margin-bottom: unset;
+  width: fit-content;
+  margin-top: unset;
+  height: unset;
+  padding-top: 3px;
+}
+input,
+select {
+  border-radius: 5px;
+}
+label:first-of-type {
+  margin-top: 5px;
+}
+
+button {
+  background-color: #37af65;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 100px;
+  border-radius: 5px;
+}

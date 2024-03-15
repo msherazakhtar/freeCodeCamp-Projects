@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.label {
+  margin: 20px auto;
+  max-width: 300px;
+  border: 2px solid black;
+  padding: 0 7px;
+}
+
+header h1 {
+  text-align: center;
+  margin: -4px 0;
+}
+.divider {
+  border-bottom: 1px solid rgb(54, 54, 54);
+  margin: 2px 0;
+}
+
+p {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.bold {
+  font-weight: 800;
+}
+.large {
+  height: 10px;
+}
+
+.large,
+.medium {
+  background-color: black;
+  border: 0;
+}
+
+.small {
+  font-size: 0.85rem;
+}
+
+.calories-info {
+  font-size: 2em;
+  font-weight: 700;
+}
+.medium {
+  height: 5px;
+}
+.calories-value {
+  display: flex;
+  justify-content: end;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.indent {
+  margin-left: 20px;
+}
+
+.double {
+  margin-left: 40px;
+}
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+}
