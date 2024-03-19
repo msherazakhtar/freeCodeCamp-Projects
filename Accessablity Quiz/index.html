@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessablity Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+        alt="logo"
+        id="logo"
+      />
+      <h4>HTML/CSS Quiz</h4>
+      <nav>
+        <ul>
+          <li><a href="#student-info">INFO</a></li>
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#css">CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="container">
+        <form action="none" method="post">
+          <section id="student-info">
+            <h1>Student Info</h1>
+            <div class="info">
+              <label for="name">Name: </label><input type="text" id="name" />
+            </div>
+            <div class="info">
+              <label for="email">Email: </label><input type="text" id="email" />
+            </div>
+            <div class="info">
+              <label for="dob">DOB: </label><input type="date" id="dob" />
+            </div>
+          </section>
+          <section id="html">
+            <h1>HTML</h1>
+            <div class="questions">
+              <h5>Question # 1</h5>
+
+              <legend>
+                The legend element represents a caption for the next input ?
+              </legend>
+              <label for="q1-a1" value="true"
+                ><input type="radio" id="q1-a1" />True</label
+              >
+              <label for="q1-a2" value="false">
+                <input type="radio" id="q1-a2" />False</label
+              >
+            </div>
+            <div class="questions">
+              <h5>Question # 2</h5>
+
+              <legend>The label element is easy to handle ?</legend>
+              <label for="q1-a1" value="true"
+                ><input type="radio" id="q1-a1" />True</label
+              >
+              <label for="q1-a2" value="false">
+                <input type="radio" id="q1-a2" />False</label
+              >
+            </div>
+          </section>
+          <section id="css"><h1>CSS</h1></section>
+          <div class="questions">
+            <legend>Can CSS margin property accept negative values?</legend>
+            <select name="dropdown" id="dropdown">
+              <option value="">Select an option</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+            <div id="suggestions">
+              <legend>Suggestion Below:</legend>
+              <textarea
+                name="suggestions"
+                id="suggestions"
+                cols="30"
+                rows="5"
+                placeholder="Please give your suggestions here..."
+              ></textarea>
+            </div>
+          </div>
+          <div id="btn">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
